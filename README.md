@@ -25,18 +25,18 @@
 [Map](#map)  
 
 ----
-## <a name="covariance"></a>Covariance
+## <a name="covariance"></a>Covariance  
+Below is an example of a covariant method return type:
 ```scala
 class One {
-    var name = "Fred"
-    def f: Animal
+    def f: Animal = new Animal()
 }
 
 class Two extends class One {
-    override var name = "Steve"
-    def f: Animal
+    def f: Dog = new Dog()
 }
 ```
+Requirements
 - Is-a relationship
 - Class Two is child class of Class One
 - Same public methods and fields
@@ -44,7 +44,7 @@ class Two extends class One {
 #### [^Return to Index](#top)  
 ----
 ## <a name="contravariance"></a>Contravariance
-Parameter and output variance
+Below is an example of a contravariant method argument type and contravariant method return type.
 
 ```scala
 class One {
@@ -56,7 +56,7 @@ class Two extends class One {
 }
 ```
 
-Class Two needs to have a higher or equal parameter with an equal or lower result
+Class Two needs to have a higher or equal method argument type with an equal or lower result type. Remember Dr. O's picture of two puzzle pieces.
 
 #### [^Return to Index](#top)  
 ----
