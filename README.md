@@ -17,7 +17,7 @@
 [Stub / Abstract Method](#stub)  
 [Abstract Class](#abstractclass)  
 [Trait](#trait)  
-[Object Identity](#objectidentity)
+[Object Identity](#objectidentity)  
 [Method Table](#methodtable)  
 
 #### Scala
