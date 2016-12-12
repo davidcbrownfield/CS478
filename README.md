@@ -189,7 +189,7 @@ In Scala, the eq method compares object identity. The equals/== method is looser
 ----
 ## <a name="methodtable"></a>Method Table
 
-![Image of method table](https://davidcbrownfield.github.com/CS487/images/method_table.png)
+![Image of method table](https://github.com/davidcbrownfield/CS478/blob/master/images/method_tables.png)
 
 #### [^Return to Index](#top)  
 ----
