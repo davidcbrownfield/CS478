@@ -18,6 +18,7 @@
 [Abstract Class](#abstractclass)  
 [Trait](#trait)  
 [Object Identity](#objectidentity)
+[Method Table](#methodtable)  
 
 #### Scala
 [foldRight](#foldRight)  
@@ -182,6 +183,13 @@ In Scala, the eq method compares object identity. The equals/== method is looser
   list1 == list2 // returns true, list1 and list2 have the same contents
   list1 equals list2 // same as ==
 ```
+
+#### [^Return to Index](#top)  
+
+----
+## <a name="methodtable"></a>Method Table
+
+![Image of method table](https://davidcbrownfield.github.com/CS487/images/method_table.png)
 
 #### [^Return to Index](#top)  
 ----
