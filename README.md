@@ -32,7 +32,7 @@ class One {
     def f: Animal = new Animal()
 }
 
-class Two extends class One {
+class Two extends One {
     def f: Dog = new Dog()
 }
 ```
@@ -51,7 +51,7 @@ class One {
     def f(x: Dog): Animal
 }
 
-class Two extends class One {
+class Two extends One {
     def f(x: Animal): Dog
 }
 ```
